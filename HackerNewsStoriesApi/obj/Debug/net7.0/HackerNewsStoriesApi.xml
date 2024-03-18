@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HackerNewsStoriesApi</name>
+    </assembly>
+    <members>
+        <member name="M:HackerNewsController.GetBestStories(System.Int32)">
+            <summary>
+            It returns n best stories among all the stories sorted based on scores
+            </summary>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HackerNewsController.GetBestStoriesByScore(System.Int32)">
+            <summary>
+            It returns n best stories sorted based on scores but it just selects the Ids returned from API and then sort it
+            not considering the actual best score among all the stories
+            </summary>
+            <param name="n">number of stories to return </param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
